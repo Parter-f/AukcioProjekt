@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1c9d252f-8151-4f4a-a9cb-eb1bb98918c2" name="Changes" comment="it has begun">
-      <change afterPath="$PROJECT_DIR$/src/Festmeny.java" afterDir="false" />
+    <list default="true" id="1c9d252f-8151-4f4a-a9cb-eb1bb98918c2" name="Changes" comment="class és pár függyvény">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Festmeny.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Festmeny.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +59,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663829224017</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="class és pár függyvény">
+      <created>1663834134542</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663834134542</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -75,6 +82,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="it has begun" />
-    <option name="LAST_COMMIT_MESSAGE" value="it has begun" />
+    <MESSAGE value="class és pár függyvény" />
+    <option name="LAST_COMMIT_MESSAGE" value="class és pár függyvény" />
   </component>
 </project>

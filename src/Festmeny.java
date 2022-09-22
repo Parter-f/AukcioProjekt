@@ -1,4 +1,5 @@
 import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 
 public class Festmeny {
 
@@ -69,10 +70,17 @@ public class Festmeny {
             this.licitekSzama ++;
             this.legutolsoLicitIdeje = LocalDateTime.now();
         } else if (this.licitekSzama >= 1) {
-            System.out.println(this.legmagasabbLicit * (1+(mertek/100)));
-            this.legmagasabbLicit = (int)(this.legmagasabbLicit * (1+(mertek/100)));
+            this.legmagasabbLicit = (int)(this.legmagasabbLicit * (1+(mertek/100.0)));
         }
     }
 
-
+    @Override
+    public String toString() {
+        String DATE_FORMATTER = "yyyy-MM-dd HH:mm:ss";
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern(DATE_FORMATTER);
+        return String.format("%s : %s (%s)\n" +
+                (elkelt ? "elkelt\n" : "nem kelt el\n") +
+                        "%d - %s"
+                , this.festo , this.cim , this.stilus , this.legmagasabbLicit , this.getLegutolsoLicitIdeje().format(formatter));
+    }
 }
